@@ -1,0 +1,77 @@
+# Compile of seq_101.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 11:11:50 on Mar 31,2026
+# Loading work.testbench
+# Loading work.seq_101
+add wave -position insertpoint sim:/testbench/*
+run
+add wave -position end  sim:/testbench/dut/pre
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+quit -sim
+# End time: 11:20:21 on Mar 31,2026, Elapsed time: 0:08:31
+# Errors: 0, Warnings: 1
+# Compile of seq_101.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of seq_101.v was successful.
+# Compile of seq_101.v failed with 1 errors.
+# Compile of testbench.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of seq_101.v failed with 1 errors.
+# Compile of testbench.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of seq_101.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 11:31:10 on Mar 31,2026
+# Loading work.testbench
+# Loading work.seq_101
+# ** Error: (vsim-3063) Port 'statr' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut File: C:/Users/User/Desktop/FSM_DEMO/FSM_Seq_101/testbench.v Line: 12
+# Error loading design
+# End time: 11:31:10 on Mar 31,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 6
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 11:31:18 on Mar 31,2026
+# Loading work.testbench
+# Loading work.seq_101
+# ** Error: (vsim-3063) Port 'statr' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut File: C:/Users/User/Desktop/FSM_DEMO/FSM_Seq_101/testbench.v Line: 12
+# Error loading design
+# End time: 11:31:18 on Mar 31,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of seq_101.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 11:32:02 on Mar 31,2026
+# Loading work.testbench
+# Loading work.seq_101
+add wave -position insertpoint sim:/testbench/*
+run
+quit -sim
+# End time: 11:33:12 on Mar 31,2026, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 2
