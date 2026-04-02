@@ -23,7 +23,7 @@ module seq_101(out, state, clk_led, in, clk_50, rst_n);
  
  //Clock_3seconds
    wire clk;
-   clk_div #(.TICKS_1500MS(2)) div(
+   clk_div #(.TICKS_1500MS(75_000_000)) div(
    .clk_out(clk),
    .clk_led(clk_led),
    .clk_in(clk_50)
@@ -85,3 +85,4 @@ module seq_101(out, state, clk_led, in, clk_50, rst_n);
  end
 
 endmodule
+

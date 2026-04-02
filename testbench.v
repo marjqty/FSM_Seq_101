@@ -1,4 +1,4 @@
-// testbench for seq_101_test
+// testbench for seq_101
 module testbench;
 
  //tb signals
@@ -27,8 +27,8 @@ module testbench;
   //stimulus
   initial begin
      rst_n = 0; in = 1; #12;
-     	rst_n = 1; in = 1; #8;
-     	rst_n = 1; in = 0; #8;
+        	rst_n = 1; in = 1; #8;
+        	rst_n = 1; in = 0; #8;
      	rst_n = 1; in = 1; #8;
 	
  
@@ -36,3 +36,4 @@ module testbench;
   end
   
 endmodule
+
