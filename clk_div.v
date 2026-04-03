@@ -6,11 +6,10 @@ Description:
  produce 1Hz clock output.
  
 Design Engineer:
- Caberoy, Adrian Miko A.
- Vigilar, Franz Louis G.
+ Yuzon, Maria Rebekah J.
  
 Date:
- 18 Feb 2026
+3 April 2026
 -------------------------------------------------------*/
 module  clk_div(clk_out,clk_led,clk_in);
  //ports
@@ -20,7 +19,7 @@ module  clk_div(clk_out,clk_led,clk_in);
  
  // 3s clock @50MHz
  parameter integer TICKS_1500MS = 75_000_000; // no. of ticks per 1.5sec
- reg [26:0] tick_cnt = 27'b0; // count 0..75_000_000 up
+ reg [26:0] tick_cnt = 27'b0; 
  
  always@(posedge clk_in) begin
     if(tick_cnt == TICKS_1500MS-1) begin 
