@@ -7,7 +7,7 @@ Description:
  arrives LSB-first.
  
 Design Engineer:
- Vigilar, Franz Louis G.
+ Yuzon, Maria Rebekah J.
  
 Date: 
  31 March 2026
@@ -21,7 +21,7 @@ module seq_101(out, state, clk_led, in, clk_50, rst_n);
  output reg [1:0] state;
  output         clk_led;
  
- //Clock_3seconds
+ //3seconds_clock
    wire clk;
    clk_div #(.TICKS_1500MS(75_000_000)) div(
    .clk_out(clk),
